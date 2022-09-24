@@ -13,6 +13,8 @@
   }
 }
 
+/* App-header: page 1 */
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -36,3 +38,8 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* App__2: page 2 */
+
+/* App__3: page 3 */
