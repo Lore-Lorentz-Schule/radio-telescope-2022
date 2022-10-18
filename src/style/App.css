@@ -15,3 +15,114 @@
   color: white;
 }
 
+/* App inputs */
+
+.feedback-input {
+  color:rgb(255, 255, 255);
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #3b3a3a;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:30%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #3b3a3a; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 30%;
+  background:#4e4d57;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:rgb(255, 255, 255);
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+  text-align: center;
+
+}
+[type="submit"]:hover { background:#555151; }
+
+@media screen and (max-width: 800px) {
+  .feedback-input {
+    width: 70%;
+  }
+  [type="submit"] {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .feedback-input {
+    width: 90%;
+  }
+  [type="submit"] {
+    width: 90%;
+  }
+}
+
+/* App text container */
+
+.App__text {
+  text-align: center;
+  width: 900px;
+  color: #fff;
+}
+
+.App__text p {
+  font-size: calc(11px + 2vmin);
+  text-align: justify;
+}
+
+.App__text h1 {
+  font-size: calc(30px + 2vmin);
+  text-align: justify;
+  margin-top: 0px;
+}
+
+.App__text_subtitle {
+  margin-bottom: 0px;
+}
+
+.App__text_subtitle p {
+  font-size: calc(19px + 2vmin);
+  text-align: justify;
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 950px) {
+  .App__text{
+    width: 700px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .App__text{
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .App__text{
+    width: 400px;
+  }
+}
+  
