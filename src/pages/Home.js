@@ -2,7 +2,10 @@ import '../style/App.css';
 
 function Home() {
   return (
-    <h1>Test</h1>  
+    <div className='App-header-Home'>
+        <h1>Title</h1>
+        <p><strong>Content</strong></p>
+    </div>
   );
 }
 
