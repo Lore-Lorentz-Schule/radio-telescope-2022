@@ -15,6 +15,20 @@
   color: white;
 }
 
+/* App-header: About */
+
+.App-header-About {
+  background-color: #1f2227;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(8px + 2vmin);
+  color: white;
+  text-align: justify;
+}
+
 /* App inputs */
 
 .feedback-input {
@@ -109,20 +123,79 @@ textarea {
 }
 
 @media screen and (max-width: 950px) {
-  .App__text{
+  .App__text {
     width: 700px;
+  }
+  .App__text h1 {
+    font-size: calc(20px + 2vmin);
   }
 }
 
 @media screen and (max-width: 800px) {
-  .App__text{
+  .App__text {
     width: 500px;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .App__text{
+  .App__text {
     width: 400px;
   }
 }
-  
+
+@media screen and (max-width: 500px) {
+  .App__text {
+    width: 300px;
+  }
+} 
+
+/* App About */
+.App__text-about {
+  text-align: center;
+  width: 900px;
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+.App__text-about p {
+  font-size: calc(5px + 2vmin);
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.App__text-about h1 {
+  font-size: calc(30px + 2vmin);
+  text-align: justify;
+  margin-top: 0px;
+}
+
+@media screen and (max-width: 950px) {
+  .App__text-about {
+    width: 700px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .App__text-about {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .App__text-about {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .App__text-about {
+    width: 300px;
+  }
+} 
+
+.copyright {
+  text-align: center;
+  color: #fff;
+  margin-top: 100px;
+  font-size: calc(6px + 1vmin);
+}
