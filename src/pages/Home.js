@@ -36,7 +36,8 @@ function Home() {
            <p>© 2022 - Aaron Wagner<br></br>
               Developed by <a href='https://www.aaronwagner.earth'>Aaron Wagner</a><br></br>
               Source code on <a href='https://github.com/Lore-Lorentz-Schule/radio-telescope-2022'>GitHub</a><br></br>
-              <b>Contact:</b> <a href='mailto:webmaster@aaronwagner.earth'>webmaster@aaronwagner.earth</a></p>
+              Contact: <a href='mailto:webmaster@aaronwagner.earth'>webmaster@aaronwagner.earth</a><br></br>
+              <a href='https://www.aaronwagner.earth/impressum'>Impressum</a></p>
           </div>
         </div>
 
