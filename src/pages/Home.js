@@ -1,5 +1,6 @@
 import '../style/App.css';
 import lolo from '../images/lolo.png';
+import title_pic from '../images/2022_11_19_LRPT_07-50-18.s-ch5i-rectified.jpg'
 
 function Home() {
   return (
@@ -7,11 +8,9 @@ function Home() {
       <div className="App">
         <div className='App-header-Home'>
           <div className='App__text'>
-            <div className='App__text_subtitle'>
-            </div>
-            <h1>Radio Telescope 2022</h1>
-            
-              
+            <h1>Wettersatelliten - Meteor M2</h1>
+            <img src={title_pic} class='title_pic' alt='title' />
+            <p>Projekt Wettersatelliten/Radioastronomie, Lore Lorentz Schule 12NP</p>
           </div>
         </div>
 
