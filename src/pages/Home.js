@@ -1,6 +1,7 @@
 import '../style/App.css';
 import lolo from '../images/lolo.png';
 import title_pic from '../images/2022_11_19_LRPT_07-50-18.s-ch5i-rectified.jpg'
+import ContentTable from '../compenents/ContentTable';
 
 function Home() {
   return (
@@ -13,6 +14,8 @@ function Home() {
             <p>Projekt Wettersatelliten/Radioastronomie, Lore Lorentz Schule 12NP</p>
           </div>
         </div>
+
+        <ContentTable />
 
         <div className='App-header-About'>
           <div className='App__text-about'>
