@@ -10,15 +10,8 @@ function Home() {
             <div className='App__text_subtitle'>
             </div>
             <h1>Radio Telescope 2022</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-              invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-              et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
-              Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
-              eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
-              est Lorem ipsum dolor sit amet.</p>
-            <p><a href='/topics'><strong>Let's get started</strong></a></p>
+            
+              
           </div>
         </div>
 
