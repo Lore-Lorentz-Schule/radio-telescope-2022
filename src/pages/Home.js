@@ -8,7 +8,6 @@ function Home() {
         <div className='App-header-Home'>
           <div className='App__text'>
             <div className='App__text_subtitle'>
-              <p>Projekt:</p>
             </div>
             <h1>Radio Telescope 2022</h1>
             <p>
