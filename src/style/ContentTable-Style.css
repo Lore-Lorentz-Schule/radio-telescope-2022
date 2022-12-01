@@ -1,3 +1,5 @@
+/* App-header design */
+
 .App-header-content {
     background-color: #2a2d33;
     min-height: 100vh;
@@ -8,3 +10,32 @@
     font-size: calc(7px + 2vmin);
     color: white;
   }
+
+/* Button design */
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 30%;
+  background:#3b3a3a;
+  border-radius:25px;
+  border:0;
+  cursor:pointer;
+  color:rgb(255, 255, 255);
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  margin-top: 10px;
+  font-weight:100;
+}
+[type="submit"]:hover { background:#555151; }
+
+@media screen and (max-width: 800px) {
+  .feedback-input {
+    width: 90%;
+  }
+  [type="submit"] {
+    width: 90%;
+  }
+}
