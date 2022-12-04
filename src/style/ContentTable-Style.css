@@ -16,9 +16,9 @@
 [type="submit"] {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   width: 30%;
-  background:#3b3a3a;
+  background:#414242d3;
   border-radius:25px;
-  border:0;
+  border:2.9px solid #4c4d4e;
   cursor:pointer;
   color:rgb(255, 255, 255);
   font-size:24px;
@@ -29,7 +29,7 @@
   margin-top: 10px;
   font-weight:100;
 }
-[type="submit"]:hover { background:#555151; }
+[type="submit"]:hover { background:#4a4c4d; }
 
 @media screen and (max-width: 800px) {
   .feedback-input {
